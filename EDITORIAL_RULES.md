@@ -1,38 +1,113 @@
-# Reglas Editoriales y Formato del Ecosistema
-
-Este documento establece las directrices de escritura, estructura y formato para la creación de contenidos en todo el proyecto. Su cumplimiento es obligatorio para mantener la consistencia editorial.
-
+---
+title: Reglas editoriales y de evidencia
+project: marketing-digital-sinergico
+version: 2.0
+status: canonico-proyecto
+updated: 2026-08-11
+controlled_by:
+  - DECISIONES_EDITORIALES.md
+depends_on:
+  - TONE_MATRIX.md
+  - AI_USAGE_GUIDE.md
+feeds:
+  - WORKFLOW.md
 ---
 
-## 📐 Principios Editoriales Rectores
+# Reglas editoriales y de evidencia
 
-1.  **Claridad > Complejidad**: El lector es un dueño de negocio ocupado y probablemente estresado. Usa frases directas, sencillas y contundentes. Si una frase puede escribirse con 10 palabras en lugar de 20, reduce.
-2.  **Estrategia > Relleno**: Cada párrafo debe aportar valor práctico. Está terminantemente prohibido incluir "relleno" o rodeos teóricos innecesarios. Cada sección debe justificar su existencia.
-3.  **Sinergia sin Duplicación**: El ecosistema es modular. Cuando sea necesario hablar de un tema cubierto en otro ebook, **menciónalo y enlázalo**, pero jamás repliques su explicación en este.
+## Principios
 
----
+1. **Claridad sobre complejidad.** Simplificar la expresión, no la realidad.
+2. **Estrategia sobre relleno.** Cada sección debe ayudar a comprender, decidir o actuar.
+3. **Evidencia sobre autoridad aparente.** Una afirmación importante necesita respaldo o una etiqueta honesta.
+4. **Aplicación sobre acumulación.** Los marcos se incluyen por utilidad, no por cantidad.
+5. **Referencia sobre duplicación.** Resumir lo indispensable y dirigir a la profundidad correcta.
+6. **Portabilidad sobre dependencia.** Markdown es la fuente maestra y debe funcionar fuera de una herramienta concreta.
 
-## 🚫 Reglas de "Prohibido"
-*   **Adjetivos Hype (Palabras Prohibidas)**: No utilices palabras como *"increíble"*, *"revolucionario"*, *"fascinante"*, *"espectacular"*, *"mágico"*, *"único"* o *"brillante"*. El valor se demuestra mediante la lógica y los resultados, no mediante la exageración verbal.
-*   **Repetición de conceptos**: No expliques dos veces lo mismo en diferentes partes del libro con palabras distintas.
-*   **Jerga técnica sin traducción**: Si debes introducir un término técnico en inglés o especializado, debes traducirlo y explicarlo usando una **analogía simple de la vida cotidiana**.
+## Extensión
 
----
+| Producto | Rango orientativo |
+|---|---:|
+| Ebooks gratuitos | 10.000–15.000 palabras |
+| Ebooks pagados especializados | 25.000–35.000 palabras |
+| El Gran Túnel | 40.000–55.000 palabras |
 
-## 📦 Diferenciación de Formatos por Bloques
+Puede aplicarse un margen de ±10 % cuando eliminar o añadir contenido perjudique la promesa. La extensión no es una cuota de relleno.
 
-### Bloque FREE (Fase de Captación)
-*   **Extensión**: 25-40 páginas.
-*   **Enfoque**: Dinámico, ágil y enfocado en generar un "quick win" (victoria rápida) inmediato para el lector.
-*   **Estructura**: Capítulos cortos que derriben barreras mentales de forma veloz.
+## Estructura de capítulo
 
-### Bloque PAID (Fase de Transformación)
-*   **Extensión**: 60-90+ páginas (Manual Maestro: 100+ páginas).
-*   **Enfoque**: Profundo, analítico y enfocado en la implementación práctica.
-*   **Estructura**: Cada capítulo debe incluir al menos una **sección de ejercicios prácticos u hojas de trabajo obligatorias** al final, para asegurar la transformación del negocio del lector.
+Modelo flexible:
 
----
+`tensión → explicación → evidencia → aplicación → decisión`
 
-## 🔗 Referencias y Conexiones Cruzadas
-*   Utiliza referencias explícitas a los ebooks anteriores y posteriores según el mapa de [CROSS_REFERENCE_MAP.md](CROSS_REFERENCE_MAP.md).
-*   Utiliza enlaces de markdown relativos para vincular secciones o libros enteros cuando el formato lo permita.
+No todas las piezas necesitan las cinco partes como subtítulos. La narración debe sentirse natural.
+
+- Gratuitos: aplicación breve por capítulo y plan de acción final.
+- Pagados: ejercicio, diagnóstico o herramienta útil en cada capítulo; no una hoja de trabajo ornamental.
+
+## Clasificación interna de afirmaciones
+
+| Clase | Regla |
+|---|---|
+| Hecho verificado | Fuente recuperable y uso fiel a su contexto |
+| Dato volátil | Incluye fecha, geografía y revisión de vigencia |
+| Inferencia | Se identifica como interpretación derivada |
+| Recomendación | Declara condiciones y criterio práctico |
+| Ejemplo | Se marca como real, compuesto o hipotético |
+| Hipótesis | No se presenta como conclusión |
+
+Las etiquetas viven en la matriz y en las notas editoriales; solo aparecen en el manuscrito cuando el lector pueda confundir la naturaleza de la afirmación.
+
+## Fuentes y citas
+
+- Notas numéricas discretas en el texto.
+- Numeración reiniciada en cada capítulo.
+- Notas agrupadas por capítulo.
+- Bibliografía completa al final.
+- Preferencia por fuente primaria, institucional, académica o documentación oficial.
+- URL, DOI o referencia estable obligatoria para una afirmación verificable importante.
+- Prohibidas en la versión final las referencias internas de una conversación (`turn...`) sin recuperar la fuente original.
+- No atribuir a una fuente una causalidad o geografía que no estudió.
+
+## Vigencia
+
+- Plataformas, leyes, pagos, disponibilidad y políticas: verificación inmediatamente antes de publicar.
+- Estadísticas y tendencias: preferir los últimos 24 meses; justificar excepciones.
+- Principios duraderos: conservar la fuente original y revisar si cambia el consenso.
+- La fecha `evidence_reviewed_at` debe acompañar los paquetes preparados para IA.
+
+## Estilo y legibilidad
+
+- Español panlatino y `tú` consistente.
+- Frases mayormente cortas y párrafos con una idea dominante.
+- Términos especializados o anglicismos explicados al aparecer.
+- Analogías opcionales: se usan si aclaran y se eliminan si deforman.
+- Tablas legibles en móvil y comprensibles sin diseño decorativo.
+- Gráficos acompañados por explicación textual y texto alternativo.
+- No depender del color para comunicar una diferencia esencial.
+- PDF optimizado para baja conectividad.
+
+## Prohibiciones
+
+- relleno, repetición y recapitulación innecesaria;
+- adjetivos de hype como sustituto de prueba;
+- promesas garantizadas o resultados numéricos predictivos;
+- estadísticas sin fuente y estadísticas zombi;
+- testimonios o casos inventados presentados como reales;
+- manipulación, dark patterns y falsa escasez;
+- jerga sin explicación;
+- presentar una salida de IA como evidencia;
+- copiar bloques de otro ebook cuando basta una referencia.
+
+## Preparación para IA
+
+- Encabezados estables y descriptivos.
+- Identificadores persistentes por ebook y capítulo.
+- Contexto suficiente para entender una sección recuperada de forma aislada.
+- Metadatos y relaciones definidos en [AI_USAGE_GUIDE.md](AI_USAGE_GUIDE.md).
+- Diferenciación visible entre contenido del libro, inferencia del modelo e información externa.
+- Ninguna herramienta de IA puede aprobar o actualizar el canon sin revisión humana.
+
+## Control final
+
+Un capítulo solo se aprueba si es claro, útil, rastreable, coherente con su alcance, accesible, reutilizable con IA y honesto sobre sus límites.

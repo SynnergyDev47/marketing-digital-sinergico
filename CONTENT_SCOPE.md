@@ -1,48 +1,91 @@
-# Alcance de Contenido del Ecosistema de Ebooks
-
-Este documento delimita estrictamente la cobertura de cada ebook dentro del sistema. Sirve para garantizar que no existan duplicaciones ni vacíos de información entre los libros gratuitos (Fase de Captación) y los de pago (Fase de Transformación).
-
+---
+title: Alcance de contenido del ecosistema de siete ebooks
+project: marketing-digital-sinergico
+version: 2.0
+status: canonico-proyecto
+updated: 2026-08-11
+controlled_by:
+  - DECISIONES_EDITORIALES.md
+depends_on:
+  - SYSTEM_ARCHITECTURE.md
+  - BUYER_PERSONA.md
+feeds:
+  - WORKFLOW.md
+  - CROSS_REFERENCE_MAP.md
 ---
 
-## 🟢 Bloque FREE: Fase de Captación (25-40 páginas)
-*El objetivo principal de este bloque es educar al avatar y generar un "quick win" (victoria rápida) inmediata sin abrumarlo.*
+# Alcance de contenido
 
-### 1. Domina el Marketing Digital - Asegura las bases de tu emprendimiento
-*   **Avatar**: Emprendedor "abrumado" (paralizado por la cantidad de información en internet).
-*   **Cubre**: Fundamentos básicos de marketing estratégico, cambio de mentalidad empresarial, visión general de un sistema comercial y desactivación de falsas creencias de éxito fácil.
-*   **NO cubre**: Branding profundo, funnels comerciales completos, automatizaciones complejas, ni diseño técnico.
+## Reglas comunes
 
-### 2. Relanza tu Emprendimiento - Usa el marketing digital como impulso
-*   **Avatar**: Negocio "estancado" (que trabaja duro pero no logra crecer ni estructurarse).
-*   **Cubre**: Metodología de orden y diagnóstico operativo, auditoría y análisis interno básico del negocio, y definición de enfoque estratégico.
-*   **NO cubre**: Identidad visual o de marca completa, ni la construcción técnica del embudo comercial.
+- Cada ebook cumple por completo su promesa específica.
+- Las fuentes globales o españolas pueden aportar evidencia; la aplicación se adapta a Latinoamérica.
+- Cuba se trata cuando la evidencia o las restricciones cambien una recomendación.
+- Los conceptos de otro volumen se resumen únicamente cuando sean necesarios para comprender.
+- `El Gran Túnel` integra; no vuelve a escribir los seis libros anteriores.
+- Los alcances 1–3 están cerrados con sus investigaciones actuales. Los alcances 4–7 son provisionales hasta completar la investigación correspondiente.
 
-### 3. 10 Claves para Vender Más - Eleva exponencialmente tus ventas
-*   **Avatar**: Emprendedor con urgencia de flujo de caja y activación comercial.
-*   **Cubre**: Claridad en el mensaje comercial, técnicas rápidas de prospección y cierre de ventas, y estrategias de reactivación comercial de clientes pasados.
-*   **NO cubre**: Experiencia postventa profunda, fidelización a largo plazo, ni atención al cliente.
+## E01 — Domina el Marketing Digital
 
----
+**Estado:** alcance cerrado.
+**Transformación:** pasar de confundir marketing con publicaciones o anuncios a comprender un sistema de mercado, oferta, mensaje, canal, conversión, medición y aprendizaje.
 
-## 🔵 Bloque PAID: Fase de Transformación (60-90+ páginas)
-*El objetivo principal de este bloque es la transformación del negocio a través de explicaciones profundas y ejercicios prácticos obligatorios.*
+**Cubre:** fundamentos; relación entre marketing y ventas; selección razonada de canales; orgánico y pagado; preparación antes de publicidad; jerarquía de métricas; realidad pyme latinoamericana; tendencias con efecto práctico; sistema mínimo de marketing.
 
-### 4. Marca Magnética - Crea una marca única e impactante
-*   **Avatar**: Negocio "invisible" (no destaca frente a la competencia y compite por precio).
-*   **Cubre**: Identidad y posicionamiento estratégico de marca, diferenciación competitiva y construcción de autoridad de mercado.
-*   **NO cubre**: Ejecución de campañas publicitarias de pago (Traffic), ni programación de páginas web.
+**No profundiza:** branding, reestructuración empresarial, técnicas de conversión, experiencia de cliente, gestión de equipos ni funnel completo.
 
-### 5. Equipos Imparables - Guía para lograr una comunicación interna efectiva
-*   **Avatar**: El "auto-empleado" (atrapado en el día a día operativo por no saber delegar).
-*   **Cubre**: Procesos y técnicas para delegar con efectividad, diseño de organigramas y definición de roles, y protocolos de comunicación interna del equipo.
-*   **NO cubre**: Estrategias de ventas externas, ni atracción/adquisición de tráfico.
+## E02 — Relanza tu Emprendimiento
 
-### 6. El Cliente Encantado - Fideliza a tu cliente para siempre
-*   **Avatar**: Negocio con alta tasa de pérdida de clientes (fuga recurrente tras la primera compra).
-*   **Cubre**: Diseño de la experiencia del cliente (Customer Experience), estrategias de postventa, fidelización y programas para aumentar el valor de vida del cliente (LTV).
-*   **NO cubre**: Adquisición inicial de leads, ni técnicas de prospección en frío.
+**Estado:** alcance cerrado.
+**Transformación:** distinguir síntomas de causas, recuperar foco y elegir qué corregir, simplificar o detener.
 
-### 7. El Gran Túnel - Crea un sistema de ventas sin fallos (100+ páginas)
-*   **Avatar**: El "estratega" comercial del negocio.
-*   **Cubre**: Recorrido completo del cliente (customer journey), diseño y automatización del embudo de ventas, y unificación de todos los pilares del ecosistema en un sistema comercial único y escalable.
-*   **NO cubre**: Explicación detallada o profunda de herramientas individuales ya resueltas en los ebooks anteriores.
+**Cubre:** diagnóstico ligero; cliente, oferta, ingresos y costes básicos; capacidad; procesos; prioridades; cuellos de botella; simplificación; actividad frente a resultados; criterios para optimizar, pivotar, relanzar o abandonar; plan adaptable de 30–90 días.
+
+**No profundiza:** administración general, finanzas completas, recursos humanos, branding, marketing avanzado ni automatización compleja.
+
+## E03 — 10 Claves para Vender Más
+
+**Estado:** alcance cerrado.
+**Transformación:** corregir diez fugas de conversión de alta aplicabilidad sin manipulación ni reconstrucción total del negocio.
+
+**Cubre:** comprensión de la oferta; valor percibido; confianza; riesgo; objeciones; fricción; velocidad de respuesta; seguimiento; presentación; CTA; psicología de compra con evidencia; venta digital, presencial y conversacional.
+
+Las diez claves finales se seleccionan por evidencia, impacto esperado, facilidad y aplicabilidad latinoamericana.
+
+**No profundiza:** funnel completo, negociación avanzada, sales enablement empresarial, branding completo ni CRM complejo.
+
+## E04 — Marca Magnética
+
+**Estado:** provisional.
+**Transformación:** construir una marca reconocible, coherente, diferenciada, relevante y creíble.
+
+**Cubre:** significado de marca; estrategia; posicionamiento; diferenciación; propuesta de valor; memoria y distintividad; identidad verbal y visual; relación entre marca y ventas; auditoría; adaptación latinoamericana.
+
+**No cubre:** ejecución de diseño gráfico, campañas de pago, programación web ni calendario de redes sociales.
+
+## E05 — Equipos Imparables
+
+**Estado:** provisional.
+**Transformación:** coordinar mejor un equipo pequeño, reducir errores y ejecutar con claridad sin burocracia.
+
+**Cubre:** roles y decisiones; comunicación síncrona y asíncrona; reuniones; documentación mínima; feedback; conflictos; seguridad psicológica; responsabilidad; handoffs; delegación; tecnología proporcional y métricas operativas ligeras.
+
+**No cubre:** legislación laboral, psicología clínica, tratado de recursos humanos, manual Scrum ni manual de software.
+
+## E06 — El Cliente Encantado
+
+**Estado:** provisional.
+**Transformación:** convertir la relación con el cliente en confianza, aprendizaje, recompra y recomendación.
+
+**Cubre:** expectativas; confianza; comunicación; servicio, experiencia y customer success; quejas; recuperación; fidelización; voz del cliente; personalización; mensajería; venta adicional ética; métricas y diseño ligero del servicio.
+
+**No cubre:** adquisición completa, prospección en frío, call center, CRM empresarial ni funnel completo.
+
+## E07 — El Gran Túnel
+
+**Estado:** provisional.
+**Transformación:** conectar marketing, ventas y experiencia en un sistema comercial operativo, medible y mejorable.
+
+**Cubre:** modelos de funnel y lifecycle; etapas y puntos de contacto; captación; nutrición; conversión sistémica; onboarding; retención; handoffs; CRM proporcional; automatización; métricas; matemáticas básicas; cuellos de botella; sistemas mínimos por modelo de negocio; escalabilidad y contexto regional.
+
+**No cubre:** la enseñanza profunda ya asignada a los otros seis volúmenes. Puede resumir principios indispensables y dirigir al lector a la especialización correspondiente.

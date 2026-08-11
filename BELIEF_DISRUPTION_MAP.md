@@ -1,26 +1,64 @@
-# Mapa de Disrupción de Creencias (Belief Disruption Map)
-
-Este documento es el núcleo del enfoque de "Mentor Disruptivo". Su propósito es guiar al redactor o a la IA para identificar las falsas creencias del mercado que debemos destruir en cada ebook y reemplazarlas con las verdades estratégicas que promueve nuestro ecosistema.
-
+---
+title: Mapa de creencias y principios de reemplazo
+project: marketing-digital-sinergico
+version: 2.0
+status: canonico-proyecto
+updated: 2026-08-11
+controlled_by:
+  - DECISIONES_EDITORIALES.md
+depends_on:
+  - CONTENT_SCOPE.md
+  - TONE_MATRIX.md
+feeds:
+  - WORKFLOW.md
 ---
 
-## 🗺️ Matriz de Disrupción por Ebook
+# Mapa de creencias y principios de reemplazo
 
-| Ebook | Falsa Creencia Popular (El Mito) | Verdad Estratégica (La Realidad) |
-| :--- | :--- | :--- |
-| **1. Domina el Marketing Digital** | "Necesito estar en todas las redes sociales y publicar contenido diario para poder vender." | "El alcance sin estrategia es inútil. Necesitas un único canal de captación bien optimizado y una oferta clara." |
-| **2. Relanza tu Emprendimiento** | "Para facturar más solo necesito meterle más dinero a anuncios y conseguir más clientes nuevos." | "Traer clientes nuevos a un negocio desordenado es como echar agua en un saco roto. El orden operativo precede a la escala." |
-| **3. 10 Claves para Vender Más** | "Vender es difícil porque no soy un experto en técnicas agresivas de persuasión y manipulación." | "La venta es el resultado natural de resolver un dolor real con un mensaje ultra-claro. Si no vendes, tu oferta no se entiende." |
-| **4. Marca Magnética** | "Construir marca consiste en diseñar un logo bonito, tener colores estéticos y un feed de Instagram cuidado." | "La marca es tu posicionamiento estratégico y la autoridad percibida. Sin un diferencial claro, eres un commodity compitiendo por precio." |
-| **5. Equipos Imparables** | "Si quiero que las cosas se hagan bien, tengo que hacerlas yo mismo. Nadie trabaja como el dueño." | "Tu incapacidad para delegar y definir procesos es el verdadero cuello de botella. Tu rol no es operar, es liderar." |
-| **6. El Cliente Encantado** | "Mi trabajo termina cuando el cliente me paga y le entrego el producto o servicio." | "Adquirir un cliente es la parte más costosa de un negocio. El verdadero margen de ganancia está en la recompra y la retención." |
-| **7. El Gran Túnel** | "El marketing digital es un conjunto de tácticas sueltas: hacer un post, poner un anuncio, enviar un email." | "El marketing es un sistema comercial unificado. Si tienes una fuga en tu túnel, da igual qué tan bueno sea tu tráfico; perderás dinero." |
+## Propósito
 
----
+Identificar creencias que bloquean el aprendizaje y reemplazarlas por principios respaldados y condicionados. Este documento no contiene «verdades únicas» ni obliga a fabricar una demolición por capítulo.
 
-## 🛠️ Cómo Utilizar este Mapa en la Redacción
+## Creencias maestras
 
-1.  **Fase de Introducción (El Gancho)**: Cada capítulo debe comenzar abordando la *Falsa Creencia Popular*. Utiliza el *Sarcasmo de Diagnóstico* para ridiculizar de manera elegante cómo el mercado enseña esa falsa creencia y las consecuencias catastróficas que trae para el dueño de PYME.
-2.  **Fase de Demolición**: Explica mediante lógica e ironía por qué esa creencia está equivocada. Expón las ineficiencias de los competidores que la promueven.
-3.  **Fase de Revelación (La Verdad Estratégica)**: Presenta la *Verdad Estratégica* como la única salida lógica e inteligente. Usa una **analogía simple** para asentar la idea en la mente del lector.
-4.  **Fase de Acción**: Explica cómo aplicar esa verdad en el negocio del lector. (En libros PAID, esto conecta directamente con los ejercicios prácticos de fin de capítulo).
+| Ebook | Creencia que bloquea | Principio de reemplazo | Estado |
+|---|---|---|---|
+| Domina el Marketing Digital | Publicar o contratar publicidad ya significa hacer marketing | El marketing conecta comprensión del mercado, oferta, mensaje, canales, conversión, medición y aprendizaje | Validado por investigación |
+| Relanza tu Emprendimiento | Un negocio estancado necesita más acciones, herramientas o inversión | Antes de añadir, conviene diagnosticar causas, restricciones y prioridades | Validado por investigación |
+| 10 Claves para Vender Más | Vender depende principalmente de presionar o persuadir mejor | Muchas ventas se pierden por falta de comprensión, confianza, reducción de riesgo, facilidad y seguimiento | Validado por investigación |
+| Marca Magnética | Branding equivale a logo, colores y estética | La identidad visual expresa una estrategia de significado, diferenciación y reconocimiento | Provisional |
+| Equipos Imparables | Para asegurar calidad el propietario debe controlarlo todo | Claridad de roles, decisiones, comunicación y seguimiento permite delegar sin abandonar responsabilidad | Provisional |
+| El Cliente Encantado | La relación termina con el pago y la entrega | Expectativas, experiencia, resolución y aprendizaje condicionan recompra y recomendación | Provisional |
+| El Gran Túnel | Marketing y ventas son una colección de tácticas o un funnel lineal | El sistema comercial conecta etapas, responsables, información, experiencia y medición | Provisional |
+
+Las creencias de los ebooks 4–7 se validarán o sustituirán después de investigar.
+
+## Uso editorial
+
+1. Confirmar que la creencia aparece realmente en el lector o en el mercado.
+2. Explicar por qué puede parecer razonable.
+3. Presentar evidencia, límites y contraejemplos.
+4. Formular el principio de reemplazo sin absolutos.
+5. Convertirlo en una pregunta, decisión, ejercicio o experimento.
+
+## Banco por capítulos
+
+Cada `PLAN_CONTENIDOS.md` puede registrar creencias secundarias con:
+
+- formulación;
+- evidencia de que existe;
+- consecuencia práctica;
+- principio de reemplazo;
+- fuente;
+- capítulo candidato;
+- riesgo de exageración.
+
+Una creencia secundaria se descarta si solo sirve para producir un gancho llamativo.
+
+## Límites
+
+- No utilizar «siempre», «nunca», «única salida» o causalidad absoluta sin evidencia suficiente.
+- No atribuir una mala práctica a todos los competidores.
+- No inventar cifras para dramatizar pérdidas.
+- No ridiculizar a quien sostiene la creencia.
+- No confundir una recomendación de Synnergy Lab con consenso científico.

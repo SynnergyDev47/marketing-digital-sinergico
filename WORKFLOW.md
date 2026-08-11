@@ -1,112 +1,165 @@
-# Flujo de Trabajo para la Creación y Revisión de Ebooks
-
-Este es el documento de entrada y referencia principal para cualquier redactor o IA que trabaje en el proyecto. Sigue este flujo secuencial dividido en fases para garantizar la coherencia, calidad y sinergia de todo el ecosistema editorial.
-
+---
+title: Flujo de creación, revisión y publicación de ebooks
+project: marketing-digital-sinergico
+version: 2.0
+status: canonico-proyecto
+updated: 2026-08-11
+controlled_by:
+  - DECISIONES_EDITORIALES.md
+depends_on:
+  - SYSTEM_ARCHITECTURE.md
+  - CONTENT_SCOPE.md
+  - CROSS_REFERENCE_MAP.md
+  - BUYER_PERSONA.md
+  - VALUE_PROPOSITION_CANVAS.md
+  - TONE_MATRIX.md
+  - EDITORIAL_RULES.md
+  - BELIEF_DISRUPTION_MAP.md
+  - AI_USAGE_GUIDE.md
+feeds:
+  - REVISION_LOG.md
 ---
 
-## 🗺️ Fases y Pasos del Flujo de Trabajo
+# Flujo de creación, revisión y publicación
 
-### FASE 1: Ingestión, Contexto y Sinergia
-*El objetivo de esta fase es entender dónde encaja el ebook en el ecosistema antes de redactar una sola palabra.*
+Este es el punto de entrada para cualquier persona o IA que trabaje en el proyecto. Ningún manuscrito comienza antes de completar las puertas de decisión indicadas.
 
-1. **Identificar el Ebook Objetivo**  
-   - *Acción*: Identifica en cuál de los 7 ebooks del proyecto vas a trabajar.
-   - *Directorios del Proyecto*:
-     - [1 - Domina el Marketing Digital (Free)](./1%20-%20Domina%20el%20Marketing%20Digital%20-%20Asegura%20las%20bases%20de%20tu%20emprendimiento%20(Free)/)
-     - [2 - Relanza tu Emprendimiento (Free)](./2%20-%20Relanza%20tu%20Emprendimiento%20-%20Usa%20el%20marketing%20digital%20como%20impulso%20(Free)/)
-     - [3 - 10 Claves para Vender Más (Free)](./3%20-%2010%20Claves%20para%20Vender%20Más%20-%20Eleva%20exponencialmente%20tus%20ventas%20(Free)/)
-     - [4 - Marca Magnética (Paid)](./4%20-%20Marca%20Magnética%20-%20Crea%20una%20marca%20única%20e%20impactante%20(Paid)/)
-     - [5 - Equipos Imparables (Paid)](./5%20-%20Equipos%20Imparables%20-%20Guía%20para%20lograr%20una%20comunicación%20interna%20efectiva%20(Paid)/)
-     - [6 - El Cliente Encantado (Paid)](./6%20-%20El%20Cliente%20Encantado%20-%20Fideliza%20a%20tu%20cliente%20para%20siempre%20(Paid)/)
-     - [7 - El Gran Túnel (Paid)](./7%20-%20El%20Gran%20Túnel%20-%20Crea%20un%20sistema%20de%20ventas%20sin%20fallos%20(Paid)/)
+## Autoridades de trabajo
 
-2. **Revisar la Arquitectura Global**  
-   - *Acción*: Analiza el propósito y la promesa madre de todo el ecosistema.  
-   - *Referencia*: [SYSTEM_ARCHITECTURE.md](SYSTEM_ARCHITECTURE.md)
+1. Decisiones aprobadas en [DECISIONES_EDITORIALES.md](DECISIONES_EDITORIALES.md).
+2. Rectores del proyecto.
+3. Cánones aplicables de Synnergy Lab: Brand Voice y Flujo de Trabajo.
+4. Investigación específica y fuentes verificadas.
+5. Planes, borradores y salidas generadas.
 
-3. **Revisar el Scope de Contenido**  
-   - *Acción*: Revisa estrictamente qué cubre y qué NO cubre el ebook objetivo para evitar redundancias con otros libros.  
-   - *Referencia*: [CONTENT_SCOPE.md](CONTENT_SCOPE.md)
+Una salida de IA, un texto heredado o una fuente aislada no modifica por sí solo una decisión aprobada.
 
-4. **Revisar el Mapa de Referencias Cruzadas**  
-   - *Acción*: Revisa las transiciones y enlaces requeridos hacia los ebooks anterior y posterior.  
-   - *Referencia*: [CROSS_REFERENCE_MAP.md](CROSS_REFERENCE_MAP.md)
+## Fase 0. Selección y estado
 
-5. **Identificar al Buyer Persona**  
-   - *Acción*: Analiza el perfil, dolores, objeciones y lenguaje del lector objetivo.  
-   - *Referencia*: [BUYER_PERSONA.md](BUYER_PERSONA.md)
+1. Identificar el ebook y su `ebook_id`.
+2. Confirmar si su alcance está cerrado o provisional en [CONTENT_SCOPE.md](CONTENT_SCOPE.md).
+3. Revisar su función conceptual, CTA y relaciones.
+4. Comprobar el estado Git antes de escribir y no mezclar cambios ajenos.
+5. Registrar fuentes o conversaciones pendientes. La armonización puede continuar, pero no se cierra una afirmación factual sin una referencia recuperable.
 
-6. **Revisar la Propuesta de Valor**  
-   - *Acción*: Comprende el diferencial y resultado clave que ofrece el ecosistema.  
-   - *Referencia*: [VALUE_PROPOSITION_CANVAS.md](VALUE_PROPOSITION_CANVAS.md)
+## Fase 1. Investigación validada
 
-7. **Identificar los Beneficios Narrativos**  
-   - *Acción*: Extrae los beneficios del ebook para enfocarlos fuertemente en el texto.  
-   - *Referencia*: [VALUE_PROPOSITION_CANVAS.md](VALUE_PROPOSITION_CANVAS.md)
+1. Leer el protocolo y el prompt investigativo correspondientes.
+2. Inspeccionar el documento maestro de investigación completo.
+3. Construir `MATRIZ_DE_AFIRMACIONES.md` con:
+   - afirmación;
+   - clase: hecho, dato volátil, inferencia, recomendación, ejemplo o hipótesis;
+   - fuente estable;
+   - geografía y fecha cuando proceda;
+   - fuerza de evidencia;
+   - vigencia;
+   - uso editorial previsto.
+4. Sustituir citas dependientes de conversaciones (`turn...`) por URL, DOI o referencia bibliográfica estable.
+5. Marcar como `[FUENTE PENDIENTE]` toda afirmación importante todavía no recuperada. No pasa al texto final.
+6. Revisar contradicciones, vacíos, duplicaciones y transferibilidad a Latinoamérica.
 
-8. **Analizar la Matriz de Tono**  
-   - *Acción*: Interioriza el estilo literario, personalidad y malas prácticas de redacción a evitar.  
-   - *Referencia*: [TONE_MATRIX.md](TONE_MATRIX.md)
+### Puerta 1
 
-9. **Revisar las Reglas Editoriales**  
-   - *Acción*: Recuerda las restricciones clave como la profundidad y la prohibición de repetir conceptos.  
-   - *Referencia*: [EDITORIAL_RULES.md](EDITORIAL_RULES.md)
+La investigación se considera utilizable cuando existe suficiente evidencia, se conocen sus límites y las afirmaciones centrales pueden rastrearse.
 
-10. **Analizar el Contenido de los Documentos de Entrada**  
-    - *Acción*: Procesa la información provista en los documentos de referencia para redactar (siempre deben existir documentos fuente provistos por el usuario en el directorio del ebook correspondiente).
+## Fase 2. Planificación editorial y descubrimiento
 
----
+1. Crear `SEO_PLAN.md` con intención de búsqueda, alternativas de título, subtítulo, palabras clave y promesa sin exageración.
+2. Confirmar el título corto oficial y aprobar el subtítulo.
+3. Crear `PLAN_CONTENIDOS.md` con:
+   - transformación del lector;
+   - creencia maestra y creencias candidatas;
+   - capítulos y función de cada uno;
+   - evidencia principal;
+   - herramientas o ejercicios;
+   - relaciones con otros ebooks;
+   - riesgos de duplicación;
+   - activos preparados para IA.
+4. Comprobar que el plan respeta el rango de palabras y el alcance.
 
-### FASE 2: Planificación Editorial y SEO
-*El objetivo de esta fase es estructurar la base técnica y de contenidos antes de redactar.*
+### Puerta 2
 
-11. **Generar el Plan de SEO**  
-    - *Acción*: Define el enfoque SEO, títulos propuestos, subtítulos y palabras clave.  
-    - *Resultado*: Crea y guarda el archivo `SEO_PLAN.md` dentro de la carpeta del ebook correspondiente.
+`SEO_PLAN.md` y `PLAN_CONTENIDOS.md` requieren aprobación antes de redactar.
 
-12. **Estructurar los Capítulos**  
-    - *Acción*: Analiza la estructura de capítulos propuesta o crea una propuesta lógica a partir de los documentos de entrada de la Fase 1.
+## Fase 3. Redacción calibrada
 
-13. **Optimizar Títulos y Subtítulos**  
-    - *Acción*: Ajusta la estructura de los capítulos para que sigan las pautas definidas en el `SEO_PLAN.md`.
+1. Redactar primero el capítulo inicial de `Domina el Marketing Digital` como calibración general de voz.
+2. Tras su aprobación, trabajar normalmente en bloques de dos o tres capítulos.
+3. Aplicar la estructura flexible:
 
-14. **Generar el Plan de Contenidos por Capítulo**  
-    - *Acción*: Diseña detalladamente el esqueleto e ideas de cada capítulo basándote en los documentos de referencia.  
-    - *Resultado*: Crea y guarda el archivo `PLAN_CONTENIDOS.md` en la carpeta del ebook correspondiente.
+   `tensión → explicación → evidencia → aplicación → decisión`
 
----
+4. Utilizar el `tú` de forma consistente.
+5. Señalar la diferencia entre evidencia, inferencia y recomendación cuando el lector pudiera confundirlas.
+6. Añadir las notas y referencias mientras se escribe; no reconstruirlas al final de memoria.
+7. Mantener encabezados e identificadores estables para la edición de conocimiento.
 
-### FASE 3: Redacción y Desarrollo
-*El objetivo de esta fase es la escritura creativa y técnica.*
+### Puerta 3
 
-15. **Redactar el Contenido**  
-    - *Acción*: Redacta el manuscrito completo del ebook capitulo a capitulo, siguiendo fielmente el flujo y las pautas del `PLAN_CONTENIDOS.md`.
+Cada bloque se revisa antes de continuar. Un bloque no aprobado permanece como borrador.
 
----
+## Fase 4. Control de calidad
 
-### FASE 4: Control de Calidad e Iteración
-*El objetivo de esta fase es certificar que el contenido es impecable y respeta el ecosistema.*
+Realizar las siguientes revisiones por separado:
 
-16. **Verificar Referencias Cruzadas**  
-    - *Acción*: Revisa que el ebook enlace o mencione correctamente los otros ebooks según el [CROSS_REFERENCE_MAP.md](CROSS_REFERENCE_MAP.md).
+### Editorial
 
-17. **Verificar Tono, Reglas Editoriales y Propuesta de Valor**  
-    - *Acción*: Pasa el contenido por el filtro de [EDITORIAL_RULES.md](EDITORIAL_RULES.md), [TONE_MATRIX.md](TONE_MATRIX.md) y [VALUE_PROPOSITION_CANVAS.md](VALUE_PROPOSITION_CANVAS.md).
+- claridad, ritmo, tratamiento y tono;
+- ausencia de relleno, hipérbole y repeticiones;
+- disrupción respaldada y respetuosa;
+- coherencia del argumento y utilidad práctica.
 
-18. **Aplicar Feedback y Correcciones**  
-    - *Acción*: Realiza los ajustes necesarios al contenido basándote en revisiones editoriales o retroalimentación del usuario.
+### Factual
 
----
+- correspondencia entre afirmaciones y fuentes;
+- citas recuperables;
+- límites y condiciones visibles;
+- diferenciación entre dato, interpretación y ejemplo;
+- actualidad de plataformas, leyes, pagos, políticas y estadísticas.
 
-### FASE 5: Entrega y Cierre
-*El objetivo de esta fase es consolidar los archivos finales y documentar el avance.*
+### Sistémica
 
-19. **Preparar la Entrega**  
-    - *Acción*: Revisa el formato, enlaces internos y limpieza general de los documentos generados.
+- alcance y no duplicación;
+- CTA principal correcto;
+- referencias cruzadas pertinentes;
+- lenguaje coherente con los otros volúmenes.
 
-20. **Generar Archivos Finales Entregables**  
-    - *Acción*: Crea los archivos finales listos para integración o exportación (ej. `README.md` principal del ebook, capítulos divididos en archivos independientes, etc.) dentro de la carpeta del ebook.
+### Preparación para IA
 
-21. **Actualizar el Registro de Cambios**  
-    - *Acción*: Añade la nueva versión, fecha y descripción de la intervención realizada en el log histórico del proyecto.  
-    - *Referencia*: [REVISION_LOG.md](REVISION_LOG.md)
+- frontmatter e identificadores;
+- secciones comprensibles al recuperarse por separado;
+- `PAQUETE_DE_CONTEXTO.md` y `GUIA_DE_USO_CON_IA.md`;
+- advertencias de vigencia y datos faltantes;
+- pruebas de preguntas de comprensión, diagnóstico, decisión y aplicación.
+
+## Fase 5. Actualización factual
+
+- Plataformas, leyes, pagos y políticas: comprobar inmediatamente antes de publicar.
+- Estadísticas y tendencias: priorizar fuentes de los últimos 24 meses.
+- Principios duraderos: conservar la fuente original y revisar cuando cambie el consenso o el alcance.
+- Registrar `evidence_reviewed_at` en los activos preparados para IA.
+
+## Fase 6. Producción y exportación
+
+### Gratuitos
+
+- fuente Markdown aprobada;
+- PDF ligero, accesible y legible en móvil;
+- paquete de conocimiento para IA.
+
+### Pagados
+
+- fuente Markdown aprobada;
+- PDF para Hotmart;
+- EPUB validado para Kindle;
+- paquete de conocimiento para IA.
+
+Antes de exportar se verifican en vivo las políticas vigentes de las plataformas. No se registran como permanentes reglas comerciales que puedan cambiar.
+
+## Fase 7. Cierre
+
+1. Actualizar [REVISION_LOG.md](REVISION_LOG.md).
+2. Verificar enlaces, frontmatter, nombres, estado de fuentes y artefactos.
+3. Revisar `git diff` y ejecutar comprobaciones de formato.
+4. Crear un commit que indique qué se modificó y con qué objetivo.
+5. No publicar, subir ni crear una versión comercial sin autorización específica.

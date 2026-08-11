@@ -1,34 +1,111 @@
-# Matriz de Tono y Estilo Disruptivo
-
-Este documento define la personalidad de marca y el tono de voz para todo el ecosistema de ebooks. Debe usarse como referencia estricta en cada revisión de redacción.
-
+---
+title: Matriz de tono del ecosistema de siete ebooks
+project: marketing-digital-sinergico
+version: 2.0
+status: canonico-proyecto
+updated: 2026-08-11
+controlled_by:
+  - DECISIONES_EDITORIALES.md
+depends_on:
+  - Synnergy Lab/01_Marca/Canonicos/Brand Voice.md
+feeds:
+  - WORKFLOW.md
+  - EDITORIAL_RULES.md
+  - BELIEF_DISRUPTION_MAP.md
 ---
 
-## 🎭 Pilares de la Personalidad de Voz
+# Matriz de tono
 
-### 1. El Mentor Disruptivo
-*   **Qué es**: Una voz seria, retórica y desafiante. Habla desde la autoridad y la experiencia, retando al lector a cuestionar lo que cree saber sobre negocios.
-*   **Cómo suena**: Directo, firme, incisivo. "Si tu negocio depende al 100% de tu presencia, no tienes un negocio; tienes un empleo muy caro con un jefe muy exigente: tú mismo."
+## Relación con la voz de Synnergy Lab
 
-### 2. Sarcasmo de Diagnóstico
-*   **Qué es**: El uso de la ironía táctica para señalar los errores comunes del mercado. Su objetivo es exponer las prácticas ineficientes y los mitos promovidos por competidores ("humo") sin atacar personalmente al lector.
-*   **Cómo suena**: Sarcástico pero constructivo. "Seguramente te dijeron que publicar tres videos bailando en redes sociales iba a resolver tu falta de clientes. ¿Cómo va esa estrategia?"
+El Brand Voice canónico gobierna la identidad verbal de la marca. Este documento define una adaptación editorial para libros educativos panlatinos.
 
-### 3. Destrucción de Creencias (Belief Disruption)
-*   **Qué es**: El desmantelamiento de falsas creencias populares sobre el marketing y las ventas para reemplazarlas con verdades estratégicas.
-*   **Cómo suena**: Basado en el contraste y apoyándose en el mapa [BELIEF_DISRUPTION_MAP.md](BELIEF_DISRUPTION_MAP.md). "El mercado te dice que te enfoques en captar más tráfico. La realidad es que estás perdiendo el 80% de tus clientes actuales en la postventa."
+Se conserva la voz de mentor y aliado: profesional, cercana, asertiva, clara, didáctica, directa y confiable. No se trasladan automáticamente afirmaciones corporativas sobre solución permanente, ROI o crecimiento.
 
----
+## Voz editorial
 
-## 🚫 Qué Evitar Estrictamente
-*   **Lenguaje motivacional vacío**: Expresiones del tipo "¡tú puedes!", "persigue tus sueños" o "mentalidad de tiburón".
-*   **Promesas irreales**: Prometer ingresos de seis cifras en semanas o éxito instantáneo sin esfuerzo estructurado.
-*   **Adjetivos vacíos o "hype"**: Palabras como *"increíble"*, *"revolucionario"*, *"fascinante"*, *"espectacular"* o *"mágico"*. Si algo es bueno, demuéstralo con resultados y lógica, no con adjetivos.
-*   **Tecnicismos innecesarios**: Explicar conceptos de forma hiper-compleja. El objetivo es que un dueño de PYME entienda el concepto a la primera.
+> Mentor estratégico y aliado que desafía creencias con evidencia.
 
----
+- Autoridad sin arrogancia.
+- Cercanía sin paternalismo.
+- Claridad sin simplificación engañosa.
+- Disrupción sin espectáculo.
+- Aplicación sin recetas universales.
 
-## ✍️ Estilo de Redacción y Rigor Lingüístico
-*   **Español Neutro Internacional**: Evitar modismos locales de cualquier país de habla hispana para garantizar que el contenido sea perfectamente asimilado en España y Latinoamérica.
-*   **Ritmo Ágil**: Frases cortas, párrafos que no superen las 4-5 líneas de texto, uso constante de listas y negritas para mejorar la lectura rápida.
-*   **Uso Obligatorio de Analogías**: Cada concepto técnico complejo debe ser explicado mediante una analogía sencilla de la vida cotidiana.
+Formalidad orientativa: **6/10**.
+Disrupción orientativa: **3/10**.
+
+## Tratamiento
+
+- `Tú` como norma en la conversación con el lector.
+- Tercera persona para datos, instituciones, casos y categorías.
+- No alternar `tú`, `usted` y tercera persona sin razón editorial explícita.
+
+## Uso de la disrupción
+
+Se utiliza cuando una creencia real impide comprender o actuar.
+
+Secuencia recomendada:
+
+1. nombrar la creencia sin caricaturizarla;
+2. mostrar por qué resulta razonable o atractiva;
+3. contrastarla con evidencia o lógica;
+4. proponer un principio de reemplazo condicionado;
+5. convertirlo en una decisión o prueba práctica.
+
+No es obligatorio abrir todos los capítulos con una demolición.
+
+## Humor e ironía
+
+Se permite humor ligero, referencial e irónico cuando aclara una contradicción.
+
+Puede ridiculizarse una creencia, incoherencia o práctica ineficiente. No se ridiculiza al lector, clientes, competidores, colectivos ni fracasos ajenos. El sarcasmo nunca sustituye la prueba ni oculta un problema.
+
+## Ritmo
+
+- Frases mayormente cortas.
+- Párrafos con una idea dominante.
+- Preguntas retóricas con función real, no por cuota.
+- Aperturas con tensión conceptual.
+- Evidencia seguida de significado práctico.
+- Cierres que ayudan a decidir o actuar.
+- Analogías solo cuando simplifican sin deformar.
+
+## Español y localización
+
+- Español panlatino claro.
+- Anglicismos únicamente cuando sean estándar; explicar la primera aparición.
+- Cubanismos solo en ejemplos donde generen afinidad o precisión contextual.
+- Evitar referencias diseñadas exclusivamente para España.
+- No presentar ningún país como representación de toda Latinoamérica.
+
+## Evitar
+
+- motivación vacía;
+- catastrofismo y «consecuencias catastróficas»;
+- promesas de dinero, ventas o crecimiento garantizados;
+- hype y superlativos sin prueba;
+- tecnicismo innecesario;
+- precisión falsa;
+- ataques a competidores;
+- pseudociencia presentada como psicología de compra;
+- frases que atribuyan al libro certeza que la evidencia no ofrece.
+
+## IA como tema y herramienta
+
+La IA se presenta con criterio: útil para explorar, adaptar, comparar y ejecutar sobre una base de conocimiento fiable. No se habla de ella como magia, autoridad infalible ni sustituto universal del profesional.
+
+## Eslóganes
+
+Máximo uno por ebook, preferiblemente en créditos o cierre. No se repite como muletilla ni se inserta en cada capítulo.
+
+## Checklist
+
+- ¿Mantiene el `tú`?
+- ¿La afirmación principal puede defenderse?
+- ¿La disrupción responde a una creencia real?
+- ¿El humor ataca una idea y no una persona?
+- ¿Distingue evidencia, inferencia y recomendación?
+- ¿Evita promesas y causalidad exagerada?
+- ¿La adaptación regional añade precisión?
+- ¿La IA aparece como herramienta y no como argumento de autoridad?
