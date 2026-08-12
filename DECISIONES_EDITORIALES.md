@@ -1,9 +1,9 @@
 ---
 title: Decisiones editoriales del ecosistema de siete ebooks
 project: marketing-digital-sinergico
-version: 2.0
+version: 2.1
 status: canonico-proyecto
-updated: 2026-08-11
+updated: 2026-08-12
 owner: Aurelio Crespo
 feeds:
   - SYSTEM_ARCHITECTURE.md
@@ -57,6 +57,9 @@ Este documento es la fuente de verdad del proyecto. Si otro rector lo contradice
 - Cada ebook parte de investigación profunda, una matriz de evidencia y fuentes recuperables.
 - No se admiten en la versión final citas dependientes de una conversación, como identificadores `turn...`, sin URL, DOI o referencia bibliográfica estable.
 - Las afirmaciones se clasifican internamente como hecho verificado, dato volátil, inferencia, recomendación, ejemplo o hipótesis.
+- La evidencia se integra sin convertir el ebook en un artículo académico: notas numéricas solo donde hagan falta y sección `Fuentes y notas del capítulo` con enlaces limpios al cierre de cada capítulo.
+- Una nota puede respaldar un párrafo o una unidad argumental inequívoca; se evita la sobrecitación.
+- Se eliminan parámetros UTM y otros rastreadores prescindibles de los enlaces publicados.
 - Las fuentes permanecen en su repositorio original; los documentos derivados las enlazan y no las duplican.
 - Los tres primeros alcances se cierran a partir de sus investigaciones actuales. Los libros 4–7 permanecen provisionales hasta completar sus investigaciones.
 - No se utilizan como casos Luminare/Luminares ni Mr Fox.
@@ -83,5 +86,5 @@ Este documento es la fuente de verdad del proyecto. Si otro rector lo contradice
 - Flujo por ebook: investigación validada → matriz de afirmaciones y fuentes → SEO → plan de contenidos → aprobación → redacción → control de calidad → exportación.
 - El primer capítulo de `Domina` calibra la voz; después se trabaja en bloques de dos o tres capítulos.
 - Extensiones orientativas: gratis 10.000–15.000 palabras; pagados especializados 25.000–35.000; `El Gran Túnel` 40.000–55.000, con margen de ±10 % cuando el contenido lo justifique.
-- Las notas numéricas se reinician por capítulo; cada volumen termina con bibliografía completa.
+- Las notas numéricas se reinician por capítulo; cada capítulo termina con sus fuentes y notas, y cada volumen con una bibliografía consolidada.
 - El repositorio se actualiza mediante Git y cada cambio editorial estructural debe cerrarse con un commit que explique qué se modificó y con qué objetivo.

@@ -1,14 +1,35 @@
 ---
 title: Registro de revisiones del ecosistema de siete ebooks
 project: marketing-digital-sinergico
-version: 2.0
+version: 2.1
 status: activo
-updated: 2026-08-11
+updated: 2026-08-12
 controlled_by:
   - DECISIONES_EDITORIALES.md
 ---
 
 # Registro de revisiones
+
+## v2.1 — 2026-08-12
+
+### Objetivo
+
+Iniciar la producción de `Domina el Marketing Digital` con fuentes recuperables, una política de citación legible y los activos necesarios para redactar y reutilizar el contenido con IA.
+
+### Decisiones incorporadas
+
+- Citas numéricas discretas solo donde una afirmación necesite respaldo.
+- Sección `Fuentes y notas del capítulo` con enlaces limpios al final de cada capítulo.
+- Eliminación de parámetros UTM y consolidación bibliográfica al final del volumen.
+- Recuperación de las fuentes del documento maestro de `Domina` desde su PDF enlazado.
+- Creación del paquete editorial inicial de E01 y del capítulo 1 como borrador de calibración.
+
+### Verificación realizada
+
+- Inventario de 42 URL únicas y sin parámetros UTM.
+- Correspondencia revisada entre las cuatro notas del capítulo 1 y sus fuentes estables.
+- Coherencia revisada con alcance, buyer persona, voz, mapa de creencias y CTA.
+- Enlaces locales válidos, ausencia de identificadores `turn...` y comprobación `git diff --check` superada.
 
 ## v2.0 — 2026-08-11
 

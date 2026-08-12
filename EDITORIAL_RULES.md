@@ -1,9 +1,9 @@
 ---
 title: Reglas editoriales y de evidencia
 project: marketing-digital-sinergico
-version: 2.0
+version: 2.1
 status: canonico-proyecto
-updated: 2026-08-11
+updated: 2026-08-12
 controlled_by:
   - DECISIONES_EDITORIALES.md
 depends_on:
@@ -60,12 +60,14 @@ Las etiquetas viven en la matriz y en las notas editoriales; solo aparecen en el
 
 ## Fuentes y citas
 
-- Notas numéricas discretas en el texto.
+- Las citas no interrumpen la lectura: se usan notas numéricas discretas solo en afirmaciones que necesitan respaldo verificable.
+- Una misma nota puede respaldar un párrafo coherente; no se repite una llamada por cada oración si la atribución sigue siendo inequívoca.
 - Numeración reiniciada en cada capítulo.
-- Notas agrupadas por capítulo.
+- Cada capítulo cierra con `Fuentes y notas del capítulo`, donde se identifica la afirmación respaldada y se ofrece el enlace limpio.
 - Bibliografía completa al final.
 - Preferencia por fuente primaria, institucional, académica o documentación oficial.
 - URL, DOI o referencia estable obligatoria para una afirmación verificable importante.
+- Los enlaces se conservan sin parámetros UTM ni otros rastreadores prescindibles.
 - Prohibidas en la versión final las referencias internas de una conversación (`turn...`) sin recuperar la fuente original.
 - No atribuir a una fuente una causalidad o geografía que no estudió.
 

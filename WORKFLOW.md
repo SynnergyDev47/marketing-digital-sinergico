@@ -1,9 +1,9 @@
 ---
 title: Flujo de creación, revisión y publicación de ebooks
 project: marketing-digital-sinergico
-version: 2.0
+version: 2.1
 status: canonico-proyecto
-updated: 2026-08-11
+updated: 2026-08-12
 controlled_by:
   - DECISIONES_EDITORIALES.md
 depends_on:
@@ -91,8 +91,9 @@ La investigación se considera utilizable cuando existe suficiente evidencia, se
 
 4. Utilizar el `tú` de forma consistente.
 5. Señalar la diferencia entre evidencia, inferencia y recomendación cuando el lector pudiera confundirlas.
-6. Añadir las notas y referencias mientras se escribe; no reconstruirlas al final de memoria.
-7. Mantener encabezados e identificadores estables para la edición de conocimiento.
+6. Añadir durante la redacción solo las llamadas numéricas necesarias; no sobrecitar ni reconstruir las referencias de memoria al final.
+7. Cerrar cada capítulo con `Fuentes y notas del capítulo`, enlazando URL o DOI estable y sin parámetros UTM.
+8. Mantener encabezados e identificadores estables para la edición de conocimiento.
 
 ### Puerta 3
 
